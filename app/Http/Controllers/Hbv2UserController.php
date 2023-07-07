@@ -12,7 +12,7 @@ class Hbv2UserController extends Controller
         // ...
 
         // Return the response
-        return response()->json(['id' => $id, 'name' => 'John Doe', 'email' => 'john@example.com']);
+        return response()->json(['id' => $id, 'name' => 'John Doe', 'email' => 'john@example.com', 'contact' => 0333]);
     }
 
     public function createUser(Request $request)
