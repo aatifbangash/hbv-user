@@ -12,3 +12,5 @@ steps:
           event-type: 'hello_world' ### event name. It will be catched in the parent repo workflow file
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}", "microservice_name": "hbv2-user"}' ### extra payload send to the parent repo workflow
 ```
+
+Further check this link https://tommoa.me/blog/github-auto-update-submodules/ 
