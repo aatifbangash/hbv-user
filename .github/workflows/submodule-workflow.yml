@@ -16,3 +16,4 @@ jobs:
           token: ${{ secrets.PAT }}  # Personal Access Token with appropriate repo scope
           repository: aatifbangash/hbv2-controller
           event-type: 'hello_world'
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}", "microservice_name": "hbv2-user"}'
