@@ -13,6 +13,6 @@ jobs:
       - name: Dispatch event to parent repo
         uses: peter-evans/repository-dispatch@v1
         with:
-          #token: ${{ secrets.PAT }}  # Personal Access Token with appropriate repo scope
+          token: ${{ secrets.PAT }}  # Personal Access Token with appropriate repo scope
           repository: aatifbangash/hbv2-controller
           event-type: 'hello_world'
